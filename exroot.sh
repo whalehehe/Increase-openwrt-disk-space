@@ -33,7 +33,7 @@ sleep 2
 opkg install block-mount kmod-fs-ext4 e2fsprogs parted
 sleep 2
 
-parted -s /dev/sda -- mklabel gpt mkpart extroot 2048s -2048s
+parted -s /dev/sda2 -- mklabel gpt mkpart extroot 2048s -2048s
 sleep 2
 
 ### Configuring rootfs_data ###
