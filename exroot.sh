@@ -50,7 +50,7 @@ sleep 2
 
 ### Configuring extroot ###
 
-DEVICE="/dev/sda1"
+DEVICE="/dev/sda2"
 
 mkfs.ext4 -L extroot ${DEVICE}
 
